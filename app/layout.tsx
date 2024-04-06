@@ -8,7 +8,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.className} antialiased`}>{children}</body>
+      <body className={`${montserrat.className} antialiased`}>
+        Esto es parte del layout
+        {children}
+        <footer className="flex items-center justify-center py-10">
+          Hecho con ❤ por la gente de Vercel
+        </footer>
+      </body>
     </html>
   );
 }
