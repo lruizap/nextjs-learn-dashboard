@@ -6,11 +6,7 @@ import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
 
 import { lusitana } from '@/app/ui/fonts';
 
-import {
-  fetchCardData,
-  fetchInvoicesPages,
-  fetchLatestInvoices,
-} from '../lib/data';
+import { fetchCardData } from '../lib/data';
 
 import { Suspense } from 'react';
 import { LatestInvoicesSkeleton, RevenueChartSkeleton } from '../ui/skeletons';
